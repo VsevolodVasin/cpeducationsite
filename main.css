@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+a{
+    text-decoration:none;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 60px;
+    position: absolute;
+    width: 291px;
+    height: 44px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 44px;
+    color: #193C40;
+}
+
+header {
+    width: 100%;
+    padding: 20px 0.5% 20px 0.5%;
+    background: transparent;
+    position: fixed;
+    z-index: 1000;
+    background-color:  #F28705;
+    float: left;
+    
+}
+
+
+
+.searchresult {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2vw;
+    width: 100%;
+    margin-top:4.40%;
+    background: transparent;
+    position: fixed;
+  
+
+    float: left;
+    
+}
+
+
+header #logo {
+    color: rgba(242, 237, 233, 0.75);
+    cursor: pointer;
+}
+
+header #logo span {
+    margin-left: 48px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.25em;
+    line-height: 44px;
+}
+
+
+.search input {
+    width: 75%;
+    height: 38px;
+    border: none;
+    padding-left: 25px;
+    border-radius: 45px;
+    background: #F2EDE9;
+    
+}
+
+.search button {
+  position: absolute; 
+  top: 0;
+  right: 0px;
+  width: 42px;
+  height: 29px;
+  border: none;
+  outline: none;
+  background: #F2EDE9;
+  border-radius: 0 45px 45px 0;
+  cursor: pointer;
+  background-image: url(img/png-2);
+  background-repeat: no-repeat;
+}
+
+.search {
+    margin-left: 74%;
+
+}
+
+form {
+    width: 23%;
+    position: absolute;
+    height: 38px;
+    top: 22px;
+    background: #F2EDE9;
+    border-radius: 45px;
+}
+
+
+
+
+.search input:hover{
+    border: none;
+    text-decoration: none;
+}
+
+.banner {
+    position: absolute;
+    width: 95%;
+    height: 545px;
+    left: 48px;
+    margin-top: 120px;
+    background: linear-gradient(85.19deg, #04D9B2 0.32%, rgba(4, 217, 178, 0.41) 51.9%, rgba(4, 217, 178, 0.2) 98.71%);
+    border-radius: 50px;
+}
+
+
+
+a.button {
+    position: absolute;
+    width: 25%;
+    padding: 20px;
+    margin-left: 134px;
+    top: 515px;
+
+  
+    border: 2px solid #193C40;;
+    border-radius: 90px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 44px;
+    text-decoration: none;
+    color:#193C40;
+    text-align: center;
+}
+
+a.button:hover{
+    background: #193C40;
+    color: #fff;
+}
+
+.post {
+    float: left; /*Задаем обтекание*/
+    display: block;
+    line-height: 50px;/*Высота строки +  верт. центрирования текста*/
+    margin-top: 925px;
+    margin-bottom:50px; 
+    margin-left: 48px;
+   
+    text-align: center; /*Центрируем текст по горизонтали*/
+    width: 30%;
+    background: #F2EDE9;
+    box-shadow: 10px 10px 10px 5px rgba(0, 0, 0, 0.25);
+}
+.postsearched {
+    float: left; /*Задаем обтекание*/
+    display: block;
+    line-height: 50px;/*Высота строки +  верт. центрирования текста*/
+    margin-top: 20%;
+    margin-bottom:50px; 
+    margin-left: 48px;
+   
+    text-align: center; /*Центрируем текст по горизонтали*/
+    width: 45%;
+    background: #F2EDE9;
+    box-shadow: 10px 10px 10px 5px rgba(0, 0, 0, 0.25);
+}
+.postsearched p {
+    vertical-align: top;
+	margin: 0;
+	padding: 0 0 0 0;
+	color: #0000000;
+	font-family: Montserrat;
+}
+
+.postsearched span {
+    vertical-align: top;
+	margin: 0;
+	padding: 0 0 0 0;
+	color: #FFB56B;
+	font-family: Montserrat;
+}
+
+
+
+.post p {
+    vertical-align: top;
+	margin: 0;
+	padding: 0 0 0 0;
+	color: #0000000;
+	font-family: Montserrat;
+}
+
+.post span {
+    vertical-align: top;
+	margin: 0;
+	padding: 0 0 0 0;
+	color: #FFB56B;
+	font-family: Montserrat;
+}
+
+.ma {
+    width: 95%;
+}
+
+
+.bn_text {
+    position: absolute;
+    width: 60%;
+    height: 220px;
+    left: 152px;
+    top: 232px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.25em;
+    line-height: 44px;
+
+    color: #FFFFFF;
+}
+
+.bn_text1 {
+    position: absolute;
+    width: 60%;
+    left: 152px;
+    top: 232px;
+    font-style: normal;
+    font-weight: bold;
+ 
+    line-height: 44px;
+
+    color: #FFFFFF;
+}
+
+@media (max-width: 1920px) {
+    .bn_text1{
+        margin-top: 220px;
+        font-size: 2.25em;
+    }
+}
+
+@media (min-width: 1919px) {
+    .bn_text1{
+        margin-top: 195px;
+        font-size: 2em;
+    }
+    
+    .bn_text {
+        
+    }
+}
+
+.img1 {
+    
+    position: absolute;
+    width: 213px;
+    height: 213px;
+    margin-left: 70%;
+    top: 453px;
+    background-image: url(img/pic.svg);
+    z-index: 100;
+
+}
+
+.img2 {
+    position: absolute;
+    width: 337px;
+    height: 337px;
+    margin-left: 76%;
+    top: 329px;
+    background-image: url(img/scientist.svg)
+}
+
+.zogolovok span {
+    position: absolute;
+    width: 791px;
+    height: 59px;
+    margin-left: 30%;
+    top: 774px;
+    text-align: centre;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3em;
+    line-height: 59px;
+    /* identical to box height */
+
+
+    color: #1B3F43;
+}
+
+
+.zogolovoksearch span {
+    position: absolute;
+    width: 100%;
+    height: 59px;
+
+    top: 11%;
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3em;
+    line-height: 59px;
+    /* identical to box height */
+
+
+    color: #1B3F43;
+}
+
+.figure {
+    display: flex;
+}
+
+.line1 {
+    
+    position: absolute;
+    width: 45%;
+    height: 0px;
+    margin-left: 3%;
+    top: 879px;
+
+    border: 2px solid #F29F05;
+}
+
+.point {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    margin-left: 50%;
+    top: 870px;
+    border-radius: 45px;
+    background: #F29F05;
+}
+
+.line2 {
+    position: absolute;
+    width: 45%;
+    height: 0px;
+    margin-left: 53%;
+    top: 879px;
+
+    border: 2px solid #F29F05;
+}
+
+.wrap {
+    width: 95%;/*фиксируем ширину обертки*/
+    margin: 0 auto;
+    display: flex;/*центрируем ее*//*Задаем высоту обертки*/
+}
+
+.wrap :last-child {
+    margin-right: 48px;/*Убираем поле последнего div-а*/
+}
+
+footer {
+    width: 100%;
+    float: left;
+    padding-top: 140px;
+    padding-bottom: 70px;
+    
+    background: #F29F05;
+}
